@@ -1,1 +1,169 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px;
+    text-underline-offset: 4px;
+    font-size: 18px;
+}
+
+.header_menu {
+    justify-self:start;
+    width: 391.48px;
+}
+
+.header_menu-list {
+    display: flex;
+    column-gap: 32px;
+    list-style: circle;
+}
+
+.header__links-list-item_no-bullit
+{
+    list-style: none;
+}
+
+.header_logo{
+    justify-self:center;
+}
+
+.header_logo-image {
+    width: 148px;
+    height: 105px;
+}
+
+.header_address {
+    grid-column: 3;
+    justify-items: start;
+    margin-left: 184px;
+    max-width: 240px;
+    font-style: normal;
+    line-height: 1.4;
+    
+}
+
+.main {
+
+}
+
+.cover {
+    position:relative;
+    background-image: url(/images/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 165px 50px 50px;
+    background-size: cover;
+    color: white;
+}
+
+.overlay{
+    background-color: rgba(0 0 0/0.6);
+    inset: 0;
+    position: absolute;
+}
+
+.ono-tebe-nado{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 30px;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.ono{
+    align-self:start;
+    margin-bottom: 20px;
+}
+
+.tebe{
+    margin-left: 330.5px;
+}
+
+.nado{
+
+    align-self:end;
+    margin-right: -30px;
+    margin-top: 20px;
+}
+
+.description {
+    position: relative;
+    z-index: 1;
+    margin-top: 106px;
+    display: flex;
+    align-items: center;
+    gap:107px;
+}
+
+.button{
+    border-width: 1px;
+    border-color: white;
+    padding: 12px 32px 11px 31px;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    width: 256px;
+    height: 51px;
+    font-size: 22px;
+}
+
+.description-text{
+    text-transform: uppercase;
+    font-size: 22px;
+    word-spacing: 18px;
+    justify-self: start;
+    width: 637px;
+}
+
+.lots {
+    margin:180px, 24px, 120px;
+}
+
+.about {
+    margin:0px, 24px, 180px;
+}
+
+.column {
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:0px 50px 82px;
+    margin-top: 180px;
+    text-underline-offset: 4px;
+}
+
+.footer-menu{
+}
+
+.footer_menu-list{
+    list-style: none;
+    text-align:center;
+    justify-self: center;
+}
+
+
+.footer-address {
+    justify-self: start;
+    font-style: normal;
+}
+
+.social-links {
+    display: flex;
+    width: 240px;
+    height: 48px;
+    grid-column: 3;
+    gap: 48px;
+    list-style: none;
+    justify-self: end;
+}
+
+.social-link {
+    width: 48px;
+    height: 48px;
+}
+
