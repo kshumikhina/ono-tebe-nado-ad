@@ -1,1 +1,1 @@
-https://github.com/kshumikhina/ono-tebe-nado-ad.git
+https://github.com/kshumikhina/ono-tebe-nado-ad
